@@ -1,4 +1,4 @@
-# 🌍 EcoEduca
+# 🌍 GreenMirror
 
 ## Esta es la idea de mi proyecto:
 > Crear una plataforma web interactiva que analice los hábitos diarios de los usuarios y les enseñe, con base científica, cómo sus acciones impactan al medio ambiente, ofreciéndoles además soluciones prácticas para reducir su huella ecológica.
