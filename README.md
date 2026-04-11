@@ -32,11 +32,3 @@ Desarrollar una aplicación web que:
 
 ## 🎯 Objetivo
 Fomentar un cambio de comportamiento en las personas mediante la educación, ayudándoles a comprender cómo sus acciones diarias afectan al planeta y cómo pueden mejorarlas.
-
----
-
-## 🚀 Futuro del proyecto
-- Agregar más categorías (energía, agua, transporte, consumo)  
-- Implementar seguimiento del progreso del usuario  
-- Integrar datos reales para estimar impacto ambiental  
-- Mejorar la personalización mediante inteligencia artificial  
