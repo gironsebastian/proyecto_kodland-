@@ -32,3 +32,5 @@ Desarrollar una aplicación web que:
 
 ## 🎯 Objetivo
 Fomentar un cambio de comportamiento en las personas mediante la educación, ayudándoles a comprender cómo sus acciones diarias afectan al planeta y cómo pueden mejorarlas.
+
+---
