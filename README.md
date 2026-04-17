@@ -1,36 +1,61 @@
 # 🌍 GreenMirror
 
-## Esta es la idea de mi proyecto:
-> Crear una plataforma web interactiva que analice los hábitos diarios de los usuarios y les enseñe, con base científica, cómo sus acciones impactan al medio ambiente, ofreciéndoles además soluciones prácticas para reducir su huella ecológica.
+## 📌 Project Idea
+> GreenMirror is an interactive web platform that analyzes users' daily habits and teaches them, based on scientific explanations, how their actions impact the environment, while providing practical solutions to reduce their ecological footprint.
 
 ---
 
-## 🌍 Problema
-Muchas personas son conscientes del cambio climático, pero no comprenden realmente cómo sus hábitos cotidianos contribuyen a este problema.  
-La falta de educación clara y basada en evidencia hace que las personas no tomen acción o no sepan por dónde empezar.
+## 🌍 Problem
+Many people are aware of climate change, but they do not fully understand how their daily habits contribute to it.  
+The lack of clear, evidence-based education prevents people from taking action or knowing where to start.
 
 ---
 
-## 💡 Solución
-Desarrollar una aplicación web que:
-- Analice la rutina del usuario mediante preguntas simples  
-- Identifique hábitos que afectan al medio ambiente  
-- Explique, de forma clara y con base científica, el impacto de esos hábitos  
-- Proponga acciones concretas para mejorar  
+## 💡 Solution
+GreenMirror provides a web-based solution that:
+- Analyzes the user's routine through simple questions  
+- Identifies environmentally harmful habits  
+- Explains the impact of those habits using scientific reasoning  
+- Suggests practical actions to improve daily behavior  
 
 ---
 
-## ⚙️ ¿Cómo funciona?
-1. El usuario responde preguntas sobre su rutina diaria  
-2. El sistema analiza sus respuestas  
-3. Se muestran resultados personalizados que incluyen:
-   - ⚠️ Hábito detectado  
-   - 🔬 Explicación científica del impacto  
-   - ✅ Recomendaciones prácticas  
+## ⚙️ How It Works
+1. The user answers questions about their daily routine  
+2. The system analyzes their responses  
+3. Personalized results are displayed, including:
+   - ⚠️ Detected habit  
+   - 🔬 Scientific explanation of the impact  
+   - ✅ Practical recommendations  
 
 ---
 
-## 🎯 Objetivo
-Fomentar un cambio de comportamiento en las personas mediante la educación, ayudándoles a comprender cómo sus acciones diarias afectan al planeta y cómo pueden mejorarlas.
+## ✨ Key Features
+- Personalized habit analysis  
+- Science-based explanations  
+- Actionable environmental recommendations  
+- Simple and interactive user experience  
 
 ---
+
+## 🎯 Objective
+To promote behavioral change through education by helping users understand how their everyday actions affect the planet and how they can improve them.
+
+---
+
+## 🛠️ Technologies Used
+- HTML  
+- CSS  
+- Python 
+
+---
+
+## 📋 Requirements (Optional)
+- A modern web browser (Chrome, Edge, Firefox, etc.)
+
+---
+
+## ⚙️ Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/greenmirror.git
