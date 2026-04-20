@@ -35,9 +35,13 @@ GreenMirror addresses this by:
 greenmirror/
 │
 ├── index.html # Main interface with the questionnaire
+
 ├── resultado.html # Page that displays the results
+
 ├── script.js # Handles user input and logic processing
+
 ├── resultado.js # Generates and renders the final report
+
 ├── style.css # Visual design and layout
 
 
