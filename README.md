@@ -31,6 +31,18 @@ GreenMirror addresses this by:
 
 ---
 
+## 🧩 Project Structure
+greenmirror/
+│
+├── index.html # Main interface with the questionnaire
+├── resultado.html # Page that displays the results
+├── script.js # Handles user input and logic processing
+├── resultado.js # Generates and renders the final report
+├── style.css # Visual design and layout
+
+
+---
+
 ## ✨ Key Features
 - Dynamic and personalized feedback  
 - Educational, impact-based insights  
@@ -56,3 +68,11 @@ GreenMirror addresses this by:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/greenmirror.git
+2. Open the project folder
+3. Run the app:
+   Open index.html in your browse
+
+---
+
+## 👨‍💻 Author
+- Sebastián Girón
