@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #e8f5e9, #f1f8f6);
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bar {
+    height: 25px;
+    background: green;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
