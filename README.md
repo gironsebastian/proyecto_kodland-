@@ -39,19 +39,6 @@ GreenMirror addresses this by:
 
 ---
 
-## 🧩 Project Structure
-```text
-greenmirror/
-├── index.html      # Main survey interface
-├── questions.js    # Question bank, scoring rules, and recommendations
-├── script.js       # Renders questions and stores user responses
-├── results.html    # Results page structure
-├── results.js      # Builds the analysis and generates the final report
-├── style.css       # Visual design, layout, and responsive styling
-└── README.md       # Project documentation
-
----
-
 ## ✨ Key Features
 - Interactive environmental habit survey
 - Fully dynamic question rendering
@@ -85,5 +72,15 @@ greenmirror/
 
 ---
 
-## 👨‍💻 Author
-- Sebastián Girón
+## 🧩 Project Structure
+```text
+greenmirror/
+├── index.html      # Main survey interface
+├── questions.js    # Question bank, scoring rules, and recommendations
+├── script.js       # Renders questions and stores user responses
+├── results.html    # Results page structure
+├── results.js      # Builds the analysis and generates the final report
+├── style.css       # Visual design, layout, and responsive styling
+└── README.md       # Project documentation
+
+---
