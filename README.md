@@ -1,80 +1,87 @@
 # 🌍 GreenMirror
 
 ## 📌 Overview
-GreenMirror is an interactive web application that helps users understand their environmental impact through a simple questionnaire.  
-It provides immediate, personalized feedback with educational insights and practical recommendations to encourage more sustainable daily habits.
+GreenMirror is an interactive web application that helps users understand their environmental footprint through a guided habit survey.  
+It collects answers about daily choices, analyzes them with a scoring system, and generates a personalized environmental report with practical recommendations, science-based explanations, and a simple action plan.
 
 ---
 
 ## 🌍 Problem
-Although many people are aware of climate change, they often lack a clear understanding of how their everyday actions contribute to it.  
-This gap in practical, accessible knowledge limits meaningful behavioral change.
+Many people care about climate change and sustainability, but they do not always know how their everyday habits contribute to environmental impact.  
+Because of that, it can be difficult to identify which behaviors matter most and what changes are realistic to start with.
 
 ---
 
 ## 💡 Solution
 GreenMirror addresses this by:
-- Evaluating user habits through simple, guided questions  
-- Identifying environmentally impactful behaviors  
-- Providing concise, science-based explanations  
-- Suggesting actionable steps to reduce environmental impact  
+- Asking users clear questions about daily environmental habits  
+- Scoring answers across multiple sustainability categories  
+- Detecting strengths and high-impact behaviors  
+- Generating a more complete and personalized report  
+- Providing practical actions the user can apply in daily life  
 
 ---
 
 ## ⚙️ How It Works
-1. The user answers a short set of questions  
-2. The system evaluates each response independently  
-3. Results are dynamically generated and displayed, including:
-   - ⚠️ Identified habit  
-   - 🔬 Environmental impact explanation  
-   - ✅ Practical recommendation  
+1. The user opens the survey in `index.html`  
+2. Questions are loaded dynamically from `questions.js`  
+3. The user answers the habit survey  
+4. `script.js` stores the responses in the browser using `localStorage`  
+5. The app redirects to `results.html`  
+6. `results.js` reads the saved responses and analyzes them  
+7. The system generates a report that includes:  
+   - An overall environmental impact level  
+   - An eco score out of 100  
+   - A category-by-category impact breakdown  
+   - Main concerns and positive habits  
+   - Science-based explanations  
+   - Personalized recommendations and an action plan  
 
 ---
 
 ## 🧩 Project Structure
+```text
 greenmirror/
-
-├── index.html # Main interface with the questionnaire
-│
-├── resultado.html # Page that displays the results
-│
-├── script.js # Handles user input and logic processing
-│
-├── resultado.js # Generates and renders the final report
-│
-├── style.css # Visual design and layout
-
+├── index.html      # Main survey interface
+├── questions.js    # Question bank, scoring rules, and recommendations
+├── script.js       # Renders questions and stores user responses
+├── results.html    # Results page structure
+├── results.js      # Builds the analysis and generates the final report
+├── style.css       # Visual design, layout, and responsive styling
+└── README.md       # Project documentation
 
 ---
 
 ## ✨ Key Features
-- Dynamic and personalized feedback  
-- Educational, impact-based insights  
-- Actionable sustainability recommendations  
-- Clean and user-friendly interface  
-- Scalable logic using independent condition evaluation  
+- Interactive environmental habit survey
+- Fully dynamic question rendering
+- Personalized environmental report
+- Eco score calculated from user responses
+- Detailed impact breakdown by category
+- Science-based explanations for each habit
+- Actionable recommendations and action plan
+- Responsive and user-friendly interface
 
 ---
 
 ## 🛠️ Technologies Used
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)  
+- JavaScript (Vanilla)
+- Browser localStorage for temporary data persistence
+
 
 ---
 
 ## 📋 Requirements
-- A modern web browser (Chrome, Edge, Firefox, etc.)
+- A modern web browser such as Chrome, Edge, Firefox, or Safari
 
 ---
 
 ## ⚙️ Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/greenmirror.git
+1. Clone the repository
 2. Open the project folder
-3. Run the app:
-   Open index.html in your browse
+3. Run the app by opening index.html in your browser
 
 ---
 
