@@ -80,7 +80,6 @@ greenmirror/
 ├── script.js       # Renders questions and stores user responses
 ├── results.html    # Results page structure
 ├── results.js      # Builds the analysis and generates the final report
-├── style.css       # Visual design, layout, and responsive styling
-└── README.md       # Project documentation
+└── style.css       # Visual design, layout, and responsive styling
 
 ---
