@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenMirror</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page page-home">
+    <main class="layout">
+        <section class="hero">
+            <p class="eyebrow">Personal impact check</p>
+            <h1>GreenMirror</h1>
+            <p class="subtitle">Discover how your daily habits shape your environmental footprint.</p>
+        </section>
+
+        <section class="panel form-panel">
+            <div class="panel-header">
+                <h2>Habit Survey</h2>
+                <p>Answer a few questions and receive a fuller environmental report with your strongest habits, main
+                    risks, and practical next steps.</p>
+            </div>
+
+            <form id="habit-form" novalidate>
+                <div id="questions" class="questions-grid"></div>
+
+                <div class="form-actions">
+                    <button type="submit" class="primary-button">Analyze my impact</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

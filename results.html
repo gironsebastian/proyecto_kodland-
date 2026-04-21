@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenMirror Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page page-results">
+    <main class="layout results-layout">
+        <section id="report-hero" class="panel hero-panel"></section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Impact Breakdown</h2>
+                <p>Each habit is rated from low to high impact based on the answer you selected.</p>
+            </div>
+            <div id="bars" class="bars-list"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Detailed Findings</h2>
+                <p>Your strongest environmental pressure points and the habits already working in your favor.</p>
+            </div>
+            <div id="detailed-report" class="report-grid"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Science and Guidance</h2>
+                <p>Why these habits matter and what changes can produce the biggest difference.</p>
+            </div>
+            <div id="science" class="science-list"></div>
+        </section>
+
+        <div class="page-actions">
+            <button type="button" class="secondary-button" id="back-button">Edit my answers</button>
+            <button type="button" class="primary-button" id="reset-button">Start over</button>
+        </div>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="results.js"></script>
+</body>
+
+</html>
