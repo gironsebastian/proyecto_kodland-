@@ -81,5 +81,3 @@ greenmirror/
 ├── results.html    # Results page structure
 ├── results.js      # Builds the analysis and generates the final report
 └── style.css       # Visual design, layout, and responsive styling
-
----
